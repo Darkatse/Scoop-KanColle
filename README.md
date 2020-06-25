@@ -23,8 +23,7 @@ How to start use scoop
 
 Requirements:
 
-* [PowerShell 3](http://www.microsoft.com/en-us/download/details.aspx?id=34595)
-* PowerShell must be enabled for your user account e.g. `set-executionpolicy unrestricted -s cu`
+* Make sure [PowerShell 5](https://aka.ms/wmf5download) (or later, include [PowerShell Core](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-6)) and [.NET Framework 4.5](https://www.microsoft.com/net/download) (or later) are installed. 
 
 
 On Windows 8 and 10 Power Shell already installed.
