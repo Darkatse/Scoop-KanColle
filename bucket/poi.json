@@ -1,0 +1,36 @@
+{
+    "version": "10.6.0",
+    "homepage": "https://poi.moe/",
+    "description": "Scalable KanColle browser and tool.",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://npm.taobao.org/mirrors/poi/v10.6.0/poi-10.6.0-win.7z",
+            "hash": "md5:b1c97d376abad2ea4cf45563ac04ee69"
+        },
+        "32bit": {
+            "url": "https://npm.taobao.org/mirrors/poi/v10.6.0/poi-10.6.0-ia32-win.7z",
+            "hash": "md5:04f1deed747724dc83dee88f1a83c9b4"
+        }
+    },
+    "bin": "poi.exe",
+    "shortcuts": [
+        [
+            "poi.exe",
+            "poi"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/poooi/poi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://npm.taobao.org/mirrors/poi/v$version/poi-$version-win.7z"
+            },
+            "32bit": {
+                "url": "https://npm.taobao.org/mirrors/poi/v$version/poi-$version-ia32-win.7z"
+            }
+        }
+    }
+}

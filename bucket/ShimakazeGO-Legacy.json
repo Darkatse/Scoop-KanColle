@@ -1,0 +1,15 @@
+{
+    "version": "1.8.4.4",
+    "homepage": "https://daofeng.wifi169.com/",
+    "description": "『艦これ』专用的游戏网络加速和防猫工具",
+    "license": "MIT License",
+    "url": "https://daofeng.wifi169.com/download/ShimakazeGo_1.8.4.4.7z",
+    "hash": "md5:e58bef474c222a9e990f77b7a5790928",
+    "bin": "ShimakazeGo/ShimakazeGo.exe",
+    "shortcuts": [
+        [
+            "ShimakazeGo.exe",
+            "ShimakazeGo"
+        ]
+    ]
+}

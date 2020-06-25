@@ -1,0 +1,36 @@
+{
+    "version": "4.6.0",
+    "homepage": "http://electronicobserver.blog.fc2.com/",
+    "description": "七四式電子観測儀 現在鋭意開発中の艦これ補助ブラウザです。",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/andanteyk/ElectronicObserver/releases/download/v4.6.0/ElectronicObserver460.zip",
+            "hash": "md5:f02f575977971b29846078ffb45637c6"
+        },
+        "32bit": {
+            "url": "https://github.com/andanteyk/ElectronicObserver/releases/download/v4.6.0/ElectronicObserver460_x86.zip",
+            "hash": "md5:4ac414abc2f25b7622c6a65a951da575"
+        }
+    },
+    "bin": "ElectronicObserver/ElectronicObserver.exe",
+    "shortcuts": [
+        [
+            "ElectronicObserver.exe",
+            "ElectronicObserver"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/andanteyk/ElectronicObserver"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/andanteyk/ElectronicObserver/releases/download/v$version/ElectronicObserver$cleanVersion.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/andanteyk/ElectronicObserver/releases/download/v$version/ElectronicObserver$cleanVersion_x86.zip"
+            }
+        }
+    }
+}
