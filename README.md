@@ -4,7 +4,7 @@ The "Scoop-KanColle" is a scoop bucket built for kancolle players!
 Scoop is a command-line installer for Windows, like homebrew.  
 With scoop, you can install, update and (if you want) uninstall these software from the command line with ease.
 
-[English]([URL](https://github.com/Darkatse/Scoop-KanColle/blob/master/README.md))|[简体中文]([URL](https://github.com/Darkatse/Scoop-KanColle/blob/master/README_CN.md))  
+[English](https://github.com/Darkatse/Scoop-KanColle/blob/master/README.md)|[简体中文](https://github.com/Darkatse/Scoop-KanColle/blob/master/README_CN.md)  
 
 Feature Apps
 ------------
@@ -46,8 +46,8 @@ Once installed, run `scoop help` for instructions.
 How to add this bucket
 =====
 
-To make it easy to install apps from this bucket, run
-    `scoop bucket add scoop-kancolle https://github.com/Darkatse/Scoop-KanColle.git`
+To make it easy to install apps from this bucket, run  
+    `scoop bucket add kancolle https://github.com/Darkatse/Scoop-KanColle.git`
     
 Check that it works:
 
