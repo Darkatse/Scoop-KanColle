@@ -47,7 +47,7 @@ How to add this bucket
 =====
 
 To make it easy to install apps from this bucket, run
-    `scoop bucket add scoop-kancolle https://github.com/Darkatse/Scoop-KanColle.git`
+    `scoop bucket add kancolle https://github.com/Darkatse/Scoop-KanColle.git`
     
 Check that it works:
 
