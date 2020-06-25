@@ -15,6 +15,10 @@ Feature Apps
 | poi-np | Installed version of poi|
 | poi-nightly | Nightly build of poi |
 | ShimakazeGO | A network acceleration tool for KanColle |
+| ING | A powerful and resource-saving kancolle browser |
+| ElectronicObserver | Another kancolle browser |
+| logbookex | a log tool for kancolle |
+| KanColleViewer | 提督業も忙しい！ |
 
 
 
