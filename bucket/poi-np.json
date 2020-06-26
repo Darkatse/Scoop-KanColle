@@ -5,11 +5,23 @@
     "license": "MIT License",
     "url": "https://npm.taobao.org/mirrors/poi/v10.6.0/poi-setup-10.6.0.exe#/dl.7z",
     "hash": "md5:eb4ab4f052d401cb9bb230639c497500",
-    "installer": {
-        "script": [
-            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
-        ]
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
+        }
     },
     "shortcuts": [
         [

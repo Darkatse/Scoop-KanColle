@@ -13,6 +13,7 @@
 | poi | 可扩展的「舰队 Collection」浏览器_ |
 | poi-np | poi 本地安装版本|
 | poi-nightly | poi 的每夜构建版本 |
+| WhoCallsTheFleet | 多功能kancolle数据库与舰队配置模拟 |
 | ShimakazeGO | ACG相关网站综合辅助工具 |
 | ING | 功能强大资源节省的kancolle浏览器 |
 | ElectronicObserver | 七四式電子観測儀 |
