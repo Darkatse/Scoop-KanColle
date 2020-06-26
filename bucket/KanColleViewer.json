@@ -10,7 +10,7 @@
     "bin": "KanColleViewer.ver.4.5/KanColleViewer.exe",
     "shortcuts": [
         [
-            "KanColleViewer.exe",
+            "KanColleViewer.ver.4.5/KanColleViewer.exe",
             "KanColleViewer"
         ]
     ],

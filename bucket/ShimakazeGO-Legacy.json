@@ -8,7 +8,7 @@
     "bin": "ShimakazeGo/ShimakazeGo.exe",
     "shortcuts": [
         [
-            "ShimakazeGo.exe",
+            "ShimakazeGo/ShimakazeGo.exe",
             "ShimakazeGo"
         ]
     ]

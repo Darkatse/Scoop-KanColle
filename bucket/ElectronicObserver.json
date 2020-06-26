@@ -16,7 +16,7 @@
     "bin": "ElectronicObserver/ElectronicObserver.exe",
     "shortcuts": [
         [
-            "ElectronicObserver.exe",
+            "ElectronicObserver/ElectronicObserver.exe",
             "ElectronicObserver"
         ]
     ],
