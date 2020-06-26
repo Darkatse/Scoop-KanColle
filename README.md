@@ -1,4 +1,4 @@
-# Scoop-KanColle [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-KanColle/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-KanColle/branch/master)
+# Scoop-KanColle [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-KanColle/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-KanColle/branch/master)[![Excavator](https://github.com/Darkatse/Scoop-KanColle/workflows/Excavator/badge.svg)](https://github.com/Darkatse/Scoop-KanColle/actions)
 
 
 The "Scoop-KanColle" is a scoop bucket built for kancolle players!  

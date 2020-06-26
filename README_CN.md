@@ -1,4 +1,4 @@
-# Scoop-KanColle [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-KanColle/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-KanColle/branch/master)
+# Scoop-KanColle [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-KanColle/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-KanColle/branch/master)[![Excavator](https://github.com/Darkatse/Scoop-KanColle/workflows/Excavator/badge.svg)](https://github.com/Darkatse/Scoop-KanColle/actions)
 
 "Scoop-KanColle "是一款为砍口垒玩家打造的scoop源！  
 [*Scoop简介 —— Windows 上体验最好的「包管理器」*](https://sspai.com/post/52496)
