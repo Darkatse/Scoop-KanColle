@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Pull Request Validation
-      uses: Darkatse/Scoop-GithubActions@stable
+      uses: Ash258/Scoop-GithubActions@stable
       if: startsWith(github.event.comment.body, '/verify')
       env:
         GITH_EMAIL: x.yangtze.river@gmail.com

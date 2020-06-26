@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Verify Issue
-        uses: Darkatse/Scoop-GithubActions@stable
+        uses: Ash258/Scoop-GithubActions@stable
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
         env:
           GITH_EMAIL: x.yangtze.river@gmail.com
