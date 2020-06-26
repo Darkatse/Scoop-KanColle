@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Verify Issue
-        uses: Ash258/Scoop-GithubActions@stable
+        uses: Darkatse/Scoop-GithubActions@stable
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
         env:
-          GITH_EMAIL: youremail@email.com
+          GITH_EMAIL: x.yangtze.river@gmail.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

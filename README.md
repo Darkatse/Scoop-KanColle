@@ -1,4 +1,5 @@
-# Scoop-KanColle
+# Scoop-KanColle [![Build status](https://img.shields.io/appveyor/ci/Darkatse/Scoop-KanColle/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Darkatse/Scoop-KanColle/branch/master)
+
 
 The "Scoop-KanColle" is a scoop bucket built for kancolle players!  
 Scoop is a command-line installer for Windows, like homebrew.  
