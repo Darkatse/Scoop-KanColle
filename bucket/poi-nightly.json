@@ -1,14 +1,14 @@
 {
-    "version": "nightly",
-    "homepage": "https://ci.appveyor.com/project/KochiyaOcean/poi",
+    "version": "1.0.4067",
+    "homepage": "https://ci.appveyor.com/project/KochiyaOcean/poi/",
     "description": "Nightly builds of poi: Scalable KanColle browser and tool.",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/c2aqeu4pggo7g9j2/artifacts/dist%2Fpoi-10.6.0-win.7z"
+            "url": "https://ci.appveyor.com/api/buildjobs/q8v3h75kb447gsq1/artifacts/dist%2Fpoi-10.6.0-win.7z"
         },
         "32bit": {
-            "url": "https://ci.appveyor.com/api/buildjobs/c2aqeu4pggo7g9j2/artifacts/dist%2Fpoi-10.6.0-ia32-win.7z"
+            "url": "https://ci.appveyor.com/api/buildjobs/q8v3h75kb447gsq1/artifacts/dist%2Fpoi-10.6.0-ia32-win.7z"
         }
     },
     "bin": "poi.exe",
@@ -17,5 +17,9 @@
             "poi.exe",
             "poi"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://ci.appveyor.com/project/KochiyaOcean/poi/build/artifacts",
+        "regex": "^1\\d?(.\\d{1,4}){2}"
+    }
 }
