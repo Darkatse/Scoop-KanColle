@@ -12,11 +12,7 @@
             "hash": "md5:b9a796b8e18f85a55db3dbe0224bef07"
         }
     },
-    "pre_install": [
-        "Expand-7zipArchive \"$dir\\KCCacheProxy-$version-full.nupkg\" \"$dir\"",
-        "Remove-Item \"$dir\\KCCacheProxy-$version-full.nupkg\", \"$dir\\Upda*\" -Force -Recurse"
-    ],
-    "extract_dir": "lib\\net45",
+    "extract_dir": "\\KCCacheProxy-$version-full.nupkg\\lib\\net45",
     "shortcuts": [
         [
             "KCCacheProxy.exe",
