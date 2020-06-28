@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.5.4/KCCacheProxy-2.5.4.Setup-x64.exe#/dl.7z",
-            "hash": "md5:f02f575977971b29846078ffb45637c6"
+            "hash": "md5:1e64f561b3f07bc13120e320594d8e1f"
         },
         "32bit": {
             "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.5.4/KCCacheProxy-2.5.4.Setup-ia32.exe#/dl.7z",
-            "hash": "md5:f02f575977971b29846078ffb45637c6"
+            "hash": "md5:b9a796b8e18f85a55db3dbe0224bef07"
         }
     },
     "pre_install": [
