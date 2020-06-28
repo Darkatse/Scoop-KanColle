@@ -15,7 +15,7 @@
     "shortcuts": [
         [
             "logbook.jar",
-            "logbook"
+            "logbook-ex"
         ]
     ],
     "checkver": {

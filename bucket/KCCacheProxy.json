@@ -1,0 +1,39 @@
+{
+    "version": "2.5.4",
+    "homepage": "https://github.com/Tibowl/KCCacheProxy",
+    "description": "a local proxy meant to cache KC assets",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.5.4/KCCacheProxy-2.5.4.Setup-x64.exe#/dl.7z",
+            "hash": "md5:f02f575977971b29846078ffb45637c6"
+        },
+        "32bit": {
+            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.5.4/KCCacheProxy-2.5.4.Setup-ia32.exe#/dl.7z",
+            "hash": "md5:f02f575977971b29846078ffb45637c6"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\KCCacheProxy-$version-full.nupkg\" \"$dir\"",
+        "Remove-Item \"$dir\\KCCacheProxy-$version-full.nupkg\", \"$dir\\Upda*\" -Force -Recurse"
+    ],
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "KCCacheProxy.exe",
+            "KCCacheProxy"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Tibowl/KCCacheProxy"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v$version/KCCacheProxy-$version.Setup-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v$version/KCCacheProxy-$version.Setup-ia32.exe#/dl.7z"
+            }
+        }
+    }
+}

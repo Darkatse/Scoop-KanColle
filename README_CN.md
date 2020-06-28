@@ -17,7 +17,8 @@
 | ShimakazeGO | ACG相关网站综合辅助工具 |
 | ING | 功能强大资源节省的kancolle浏览器 |
 | ElectronicObserver | 七四式電子観測儀 |
-| logbookex | 航海日誌 拡張版 |
+| logbook-ex | 航海日誌 拡張版 |
+| KCCacheProxy | kancolle本地缓存和代理工具 |
 | KanColleViewer | 提督很忙！ |
 
 

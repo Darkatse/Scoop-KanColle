@@ -19,7 +19,8 @@ Feature Apps
 | ShimakazeGO | A network acceleration tool for KanColle |
 | ING | A powerful and resource-saving kancolle browser |
 | ElectronicObserver | Another kancolle browser |
-| logbookex | a log tool for kancolle |
+| logbook-ex | a log tool for kancolle |
+| KCCacheProxy | a local proxy meant to cache KC assets |
 | KanColleViewer | 提督業も忙しい！ |
 
 
