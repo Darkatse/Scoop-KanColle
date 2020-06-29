@@ -2,10 +2,17 @@
     "version": "1.8.4.4",
     "homepage": "https://daofeng.wifi169.com/",
     "description": "ACG相关网站综合辅助工具，旧版界面",
-    "license": "MIT License",
     "url": "https://daofeng.wifi169.com/download/ShimakazeGo_1.8.4.4.7z",
     "hash": "md5:e58bef474c222a9e990f77b7a5790928",
     "bin": "ShimakazeGo/ShimakazeGo.exe",
+    "persist": [
+        "cache",
+        "data",
+        "Language",
+        "ModuleConfig",
+        "config.xml",
+        "modules.xml"
+    ],
     "shortcuts": [
         [
             "ShimakazeGo/ShimakazeGo.exe",

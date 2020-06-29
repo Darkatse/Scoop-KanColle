@@ -17,6 +17,7 @@ Feature Apps
 | poi-nightly | Nightly build of poi |
 | WhoCallsTheFleet | powerful kancolle database and fleet simulator |
 | ShimakazeGO | A network acceleration tool for KanColle |
+| ACG Power | Another network acceleration tool for KanColle |
 | ING | A powerful and resource-saving kancolle browser |
 | ElectronicObserver | Another kancolle browser |
 | logbook-ex | a log tool for kancolle |
