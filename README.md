@@ -2,7 +2,7 @@
 
 
 The "Scoop-KanColle" is a scoop bucket built for kancolle players!  
-Scoop is a command-line installer for Windows, like homebrew.  
+[Scoop](https://github.com/lukesampson/scoop) is a command-line installer for Windows, like homebrew.  
 With scoop, you can install, update and (if you want) uninstall these software from the command line with ease.
 
 [English](https://github.com/Darkatse/Scoop-KanColle/blob/master/README.md)|[简体中文](https://github.com/Darkatse/Scoop-KanColle/blob/master/README_CN.md)  
