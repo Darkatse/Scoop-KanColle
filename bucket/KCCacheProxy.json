@@ -1,22 +1,22 @@
 {
-    "version": "2.5.4",
+    "version": "2.6.0",
     "homepage": "https://github.com/Tibowl/KCCacheProxy",
     "description": "a local proxy meant to cache KC assets",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.5.4/KCCacheProxy-2.5.4.Setup-x64.exe#dl.7z",
-            "hash": "md5:1e64f561b3f07bc13120e320594d8e1f"
+            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.6.0/KCCacheProxy-2.6.0.Setup-x64.exe#/dl.7z",
+            "hash": "c36359e4a1b200cdb50899cd4856a900ac480be64ce981722396eb5d2ac3547c"
         },
         "32bit": {
-            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.5.4/KCCacheProxy-2.5.4.Setup-ia32.exe#dl.7z",
-            "hash": "md5:b9a796b8e18f85a55db3dbe0224bef07"
+            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.6.0/KCCacheProxy-2.6.0.Setup-ia32.exe#/dl.7z",
+            "hash": "e51fe94cba5a476d24575c5183901eed7dc81b1f471bd2cfca019e3a3a2a2710"
         }
     },
     "pre_install": [
         "Expand-7zipArchive \"$dir\\KCCacheProxy-$version-full.nupkg\" \"$dir\"",
-                    "Remove-Item \"$dir\\KCCacheProxy*\", \"$dir\\Update*\", \"$dir\\RELEASES\" -Force -Recurse",
-                    "Move-Item -Path \"$dir\\lib\\net45\\*\" -Destination \"$dir\"",
-                    "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\[Content_Types]*\" -Force -Recurse"
+        "Remove-Item \"$dir\\KCCacheProxy*\", \"$dir\\Update*\", \"$dir\\RELEASES\" -Force -Recurse",
+        "Move-Item -Path \"$dir\\lib\\net45\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\[Content_Types]*\" -Force -Recurse"
     ],
     "shortcuts": [
         [
