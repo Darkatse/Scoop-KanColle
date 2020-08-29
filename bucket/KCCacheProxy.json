@@ -1,15 +1,15 @@
 {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "homepage": "https://github.com/Tibowl/KCCacheProxy",
     "description": "a local proxy meant to cache KC assets",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.6.1/KCCacheProxy-2.6.1.Setup-x64.exe#/dl.7z",
-            "hash": "804c5dad49dee411e54b2cc2d445e697c84354548d66b98b4ceecdd29bff348e"
+            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.6.2/KCCacheProxy-2.6.2.Setup-x64.exe#/dl.7z",
+            "hash": "009ceabd73cd2856d0e5699ca1bf1639d4c3cdea25944c160249a28625a9e4ae"
         },
         "32bit": {
-            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.6.1/KCCacheProxy-2.6.1.Setup-ia32.exe#/dl.7z",
-            "hash": "4ec72a862ec659a36bcb5be87e6c5545094c75dab9983e1af2d50b1ddc7588c1"
+            "url": "https://github.com/Tibowl/KCCacheProxy/releases/download/v2.6.2/KCCacheProxy-2.6.2.Setup-ia32.exe#/dl.7z",
+            "hash": "372535e667b10c5bc8ed705d03e6c01ee6201cfbd5aebf0fd1d6775f5e82ffb3"
         }
     },
     "pre_install": [
