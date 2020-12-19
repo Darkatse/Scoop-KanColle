@@ -1,9 +1,9 @@
 {
-    "version": "1.8.4.4",
+    "version": "1.8.4.6",
     "homepage": "https://daofeng.wifi169.com/",
     "description": "ACG相关网站综合辅助工具，旧版界面",
-    "url": "https://daofeng.wifi169.com/download/ShimakazeGo_1.8.4.4.7z",
-    "hash": "md5:e58bef474c222a9e990f77b7a5790928",
+    "url": "https://daofeng.wifi169.com/download/ShimakazeGo_1.8.4.6.7z",
+    "hash": "md5:AA5B8B03A5B59815D5BC3CE59AAEE1DE",
     "bin": "ShimakazeGo/ShimakazeGo.exe",
     "persist": [
         "cache",

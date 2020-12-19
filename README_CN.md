@@ -41,6 +41,10 @@
 
     iwr -useb get.scoop.sh | iex
 
+注意：如果执行命令时遇到错误，则可能需要使用以下命令更改Powershell执行策略
+
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
 安装后请输入 `scoop help` 来查看指南。
 
 

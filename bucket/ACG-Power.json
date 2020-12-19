@@ -1,9 +1,9 @@
 {
-    "version": "3.0.0.1",
+    "version": "3.0.1.1",
     "homepage": "http://acggate.net/",
     "description": "另一个ACG相关网站辅助工具",
-    "url": "https://acgpower.oss-cn-shenzhen.aliyuncs.com/acgpower3.0.0.1.zip",
-    "hash": "md5:f7cc44a797d1ddb74eef907e2410ec5b",
+    "url": "https://acgpower.oss-cn-shenzhen.aliyuncs.com/acgpower3.0.1.1.zip",
+    "hash": "md5:50C4172EC3B91B30A0BF189392C18C50",
     "shortcuts": [
         [
             "ACGPower.exe",

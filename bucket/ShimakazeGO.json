@@ -1,9 +1,9 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.11",
     "homepage": "https://daofeng.wifi169.com/",
     "description": "ACG相关网站综合辅助工具",
-    "url": "http://download.wifi169.com/ShimakazeGo_2.0.0.169_win.7z",
-    "hash": "md5:1ae7dffc0fb728435a5764582dfe8313",
+    "url": "http://download.wifi169.com/ShimakazeGo_2.0.11.385_win64.7z",
+    "hash": "md5:0BC787A71E5116CD848EB0C7EB8ED6F9",
     "bin": "ShimakazeGo/ShimakazeGo.exe",
     "shortcuts": [
         [
@@ -21,6 +21,6 @@
     ],
     "checkver": "v([\\d\\.]+)---------------------------------",
     "autoupdate": {
-        "url": "http://download.wifi169.com/ShimakazeGo_$version.169_win.7z"
+        "url": "http://download.wifi169.com/ShimakazeGo_$version.385_win64.7z"
     }
 }
