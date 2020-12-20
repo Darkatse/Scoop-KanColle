@@ -1,12 +1,12 @@
 {
-    "version": "0.30.51",
+    "version": "0.30.52",
     "homepage": "http://fleet.moe/",
     "description": "Who Calls The Fleet? ——Diablohu",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TeamFleet/WhoCallsTheFleet/releases/download/v0.30.51/WhoCallsTheFleet-0.30.51-win64.zip",
-            "hash": "93b9a0b7f7985fdf4c386f166b5f1c98ad9d6aeda773ab6deb5b50350ec2c4c1"
+            "url": "https://github.com/TeamFleet/WhoCallsTheFleet/releases/download/v0.30.52/WhoCallsTheFleet-0.30.52-win64.zip",
+            "hash": "84e33121233d3566530aad50e8ee15411bddab247b9cfb583cd33384c527d272"
         }
     },
     "bin": "WhoCallsTheFleet.exe",
