@@ -1,10 +1,10 @@
 {
-    "version": "2.5.7.18",
+    "version": "2.5.7.19",
     "homepage": "https://github.com/Nishisonic/logbook",
     "description": "艦これ 航海日誌 拡張版",
     "license": "MIT License",
-    "url": "https://github.com/Nishisonic/logbook/releases/download/v2.5.7.18/logbook.jar",
-    "hash": "9b68433584fead67f37830a9810cfb783e6f290e5d8cf9a99b8c9729e5a6d38e",
+    "url": "https://github.com/Nishisonic/logbook/releases/download/v2.5.7.19/logbook.jar",
+    "hash": "75d37be9e98a8b80f14f4b6dacfac2e96b4338c96dc1db43c7725f0c9a78b304",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
